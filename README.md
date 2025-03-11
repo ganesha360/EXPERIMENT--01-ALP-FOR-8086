@@ -70,9 +70,9 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-## Programs for arithmetic  operations
+## Programs for Arithmetic  Operations
 
-## Addition 
+## Addition of 8 bit numbers ALP
 ```
 MOV AL, 53H;
 MOV BL, 24H;
@@ -85,7 +85,7 @@ HLT
  ![image](https://github.com/user-attachments/assets/9c1fd3e5-5bcd-41b2-8657-b20162956f59)
 
  
-## Subtraction   
+## Subtraction of 8 bit numbers ALP
 ```
 MOV AL, 53H;
 MOV BL, 24H;
@@ -96,7 +96,7 @@ HLT
 
 ![image](https://github.com/user-attachments/assets/c10b9a98-3374-488c-a696-1f1e0f29c962)
 
-## Multiplication 
+## Multiplication of 8 bit numbers ALP
 ```
 MOV AL, 53H;
 MOV BL, 24H;
@@ -108,7 +108,7 @@ HLT
 
 ![image](https://github.com/user-attachments/assets/4bad67b1-5f83-4128-bf46-b03ace8ced30)
 
-## Division 
+## Division of 8 bit numbers ALP
 ```
 MOV AL, 53H
 MOV BL, 24H
@@ -120,8 +120,46 @@ HLT
 
 ![image](https://github.com/user-attachments/assets/dbb08bcd-2434-4f67-99c0-761864b7d7a9)
 
+## Programs for Logical Operations
+## And of 8 bit numbers ALP
+```assembly
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+## Output
+![ANDEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/137f8c67-17d9-4cc2-8437-349d50e0a404)
 
+## OR of 8 bit numbers ALP
+```assembly
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+## Output
+![OR EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/d9fce991-bce0-4c58-a77c-2de3216f302d)
 
+## NOT of 8 bit number ALP
+```assembly
+MOV AL,65H
+NOT AL
+HLT
+```
+## Output
+![NOT EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/a7efe90e-2100-4df5-8298-3516af3b7f65)
+
+## XOR of 8 bit number ALP
+```assembly
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+
+## Output
+![XOREX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/838fcf0e-3db2-4d6c-a9b6-0607b839726d)
 
 ## Result :
 The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
