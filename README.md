@@ -1,14 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : karthick v
-
-Roll no : 212223040086
-
-Date of experiment : 10/03/2025
-
-
-
-
-
+## Name : GANESH R
+## Roll No : 212222240029
+## Date :
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
 ## Theory 
