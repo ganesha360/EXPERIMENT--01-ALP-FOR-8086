@@ -74,56 +74,51 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition 
 ```
-MOV AL, 74h
-MOV BL, 69h
-ADD AL, BL
-HTL
+MOV AL, 53H;
+MOV BL, 24H;
+ADD AL,BL;
+HLT
 ```
 
-
-
 ## Output  
-![Screenshot 2025-02-28 083028](https://github.com/user-attachments/assets/03bb0235-66c4-42f6-8ba5-5fe2e47070e1)
+
+ ![image](https://github.com/user-attachments/assets/9c1fd3e5-5bcd-41b2-8657-b20162956f59)
 
  
 ## Subtraction   
 ```
-MOV al, 74
-MOV bl, 69
-SUB al, bl
-HTL
+MOV AL, 53H;
+MOV BL, 24H;
+SUB AL,BL;
+HLT
 ```
-
- 
 ## Output  
-![Screenshot 2025-02-28 083935](https://github.com/user-attachments/assets/5a6a22cf-a0bb-4221-9d4a-43ed5e117423)
+
+![image](https://github.com/user-attachments/assets/c10b9a98-3374-488c-a696-1f1e0f29c962)
 
 ## Multiplication 
 ```
-org 200h
-MOV al, 75
-MOV bl, 32
-MUL al, bl
-HTL
-ret
+MOV AL, 53H;
+MOV BL, 24H;
+MUL BL;
+HLT
 ```
 
  ## Output  
 
-![Screenshot 2025-02-28 084653](https://github.com/user-attachments/assets/fccbbae4-3094-4f0f-85c5-ba717b051911)
+![image](https://github.com/user-attachments/assets/4bad67b1-5f83-4128-bf46-b03ace8ced30)
 
 ## Division 
 ```
-MOV al, 68
-MOV bl, 18
-DIV al, bl
-HTL
-ret
+MOV AL, 53H
+MOV BL, 24H
+DIV BL
+HLT
 ```
 
-## Output 
+## Output  
 
-![Screenshot 2025-02-28 084956](https://github.com/user-attachments/assets/26037c4b-cf1a-48e0-9509-37a2826119f3)
+![image](https://github.com/user-attachments/assets/dbb08bcd-2434-4f67-99c0-761864b7d7a9)
 
 
 
