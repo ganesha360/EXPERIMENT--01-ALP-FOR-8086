@@ -1,7 +1,7 @@
 # EXPERIMENT 01 ALP FOR 8086
 ## Name : GANESH R
 ## Roll No : 212222240029
-## Date :
+## Date : 25/02/2025
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
 ## Theory 
